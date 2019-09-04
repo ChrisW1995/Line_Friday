@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LineBotModelStoreContainer" CdmEntityContainer="LineBotContext">
+    <EntitySetMapping Name="MovieQuestion">
+      <EntityTypeMapping TypeName="LineBotModel.MovieQuestion">
+        <MappingFragment StoreEntitySet="MovieQuestion">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="M_Question" ColumnName="M_Question" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuestionProcess">
+      <EntityTypeMapping TypeName="LineBotModel.QuestionProcess">
+        <MappingFragment StoreEntitySet="QuestionProcess">
+          <ScalarProperty Name="ErrorCount" ColumnName="ErrorCount" />
+          <ScalarProperty Name="Answer" ColumnName="Answer" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="M_Order" ColumnName="M_Order" />
+          <ScalarProperty Name="QuestionStatus" ColumnName="QuestionStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

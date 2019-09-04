@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="LineBotEntities-Web.config Connection String" description="LineBotEntities 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="metadata=res://*/Models.QuestionModel.csdl|res://*/Models.QuestionModel.ssdl|res://*/Models.QuestionModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=140.137.12.79;initial catalog=LineBot;persist security info=True;user id=prj_linebot;password=adm@1234;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Chris\\Desktop\\LineBot_Friday\\Prj_LineBot\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LineBotEntities']/@connectionString" />
+  </parameter>
+  <parameter name="LineBotContext-Web.config Connection String" description="LineBotContext 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="metadata=res://*/Models.LineBotModel.csdl|res://*/Models.LineBotModel.ssdl|res://*/Models.LineBotModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=140.137.12.79;initial catalog=LineBot;persist security info=True;user id=prj_linebot;password=adm@1234;multipleactiveresultsets=True;application name=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Chris\\Desktop\\LineBot_Friday\\Prj_LineBot\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LineBotContext']/@connectionString" />
+  </parameter>
+  <parameter name="LineModel-Web.config Connection String" description="LineModel 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="Server=140.138.150.37;Initial Catalog=Linebot;Persist Security Info=False;User ID=admin;Password=adm@1234;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Chris\\Desktop\\LineBot_Friday\\Prj_LineBot\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LineModel']/@connectionString" />
+  </parameter>
+</parameters>
